@@ -31,8 +31,9 @@ module.exports = {
         externals: {
             'vue': 'Vue',
             'vue-router': 'VueRouter',
-            'element-ui': 'ElementUI',
+            'element-ui': 'element-ui',
             'echarts': 'Echarts',
+            'axios': 'axios',
         },
     },
     publicPath: '/blue-admin',
