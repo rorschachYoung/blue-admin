@@ -1,0 +1,19 @@
+@url= https://www.rorscloud.top:4000
+
+###
+get {{url}}/
+
+###
+post {{url}}/piao/add
+Content-Type: application/json
+
+{
+    "title":"【长春】“长春融大·魔力PARK·之夜”群星演唱会",
+    "img":"https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN011BFR4r2GdSCiWnUMu_!!0-item_pic.jpg_q60.jpg_.webp",
+    "city":"长春",
+    "address":"长春市 | 长春经济技术开发区体育场 ",
+    "artiset":"群星",
+    "showtime":1570896000000,
+    "state":0,
+    "type":"演唱会"
+}
