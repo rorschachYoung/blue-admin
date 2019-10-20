@@ -32,7 +32,7 @@ module.exports = {
             'vue': 'Vue',
             'vue-router': 'VueRouter',
             'element-ui': 'ELEMENT',
-            'echarts': 'Echarts',
+            'echarts': 'echarts',
             'axios': 'axios',
         },
     },
