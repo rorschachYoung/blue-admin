@@ -24,10 +24,16 @@ module.exports = {
                 test: new RegExp('\\.(' + productionGzipExtensions.join('|') + ')$'), // 只处理大于xx字节 的文件，默认：0
                 threshold: 10240,  // 示例：一个1024b大小的文件，压缩后大小为768b，minRatio : 0.75
                 minRatio: 0.8,
-                 // 是否删除源文件，默认: false
-                 deleteOriginalAssets: false
-              })
-        ]
+                // 是否删除源文件，默认: false
+                deleteOriginalAssets: false
+            })
+        ],
+        externals: {
+            'vue': 'Vue',
+            'vue-router': 'VueRouter',
+            'element-ui': 'ElementUI',
+            'echarts': 'Echarts',
+        },
     },
     publicPath: '/blue-admin',
     devServer: {
