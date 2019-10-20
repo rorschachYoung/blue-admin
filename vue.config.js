@@ -14,6 +14,7 @@ module.exports = {
     // chainWebpack(config){
     //     config.reslove.alias.set('$','@/assets')
     // },
+    publicPath:'/blue-admin',
     devServer:{
         proxy:{
             '/api':{
