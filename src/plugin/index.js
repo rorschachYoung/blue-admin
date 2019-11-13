@@ -10,8 +10,9 @@
  */
 let context = require.context('./',true,/\.(js|vue)/)
 for(let a in context) {
-    console.log(a)
+    console.log(a) /* id, keys, reslove */
 }
-context.keys().map(context)
+
+context.keys()/* 返回文件路径的数组 */.map(context) /* context(name) 引入模块 */
 
 
